@@ -1,2 +1,13 @@
 This project is to show the OTP validation by Twilio
 To set up this project, follow these steps:
+1. Create twilio account and get details like security APi and tokens to add in Settings.py.
+This is the example details that we are going to use:
+# OTP Twilio account
+ACCOUNT_SECURITY_API_KEY='fZVQ5mskbZ2WanQPotA4hAOBMufbvJGj'
+TWILIO_ACCOUNT_SID='ACdcd8d515af5ddca9569089f867221ed8'
+TWILIO_AUTH_TOKEN='54771d6ee2817a8b9281db00dd9e3f4b'
+TWILIO_VERIFICATION_SID='VA653d5ed35d7a9fd191e0b41a268b3fc2'
+
+2. Install packages in requirements.txt
+3. python manage.py runserver -> test the module.
+
